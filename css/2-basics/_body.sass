@@ -1,0 +1,386 @@
+html
+  height: 100%
+  box-sizing: border-box
+
+body
+  font-family: 'Raleway', sans-serif
+  font-size: 1rem
+
+//@media (max-width: 768px)
+  body
+    font-size: .8rem
+
+h2
+  font-weight: normal
+  color: $black
+
+a
+  text-decoration: none
+  color: $black
+
+nav
+  position: fixed
+  z-index: 10
+  width: 100vw
+  height: 70px
+  background: white
+
+.nav-container
+  padding: 0 1.2em
+  max-width: $width
+  margin: auto
+  display: flex
+  justify-content: space-between
+  line-height: 70px
+  font-size: 1.2em
+
+.main-nav > a
+  margin-left: 30px
+  transition: 300ms
+  color: lighten($black, 20%)
+  &:hover
+    color: $black
+
+.menu-toggle
+  display: none
+  transition: 300ms
+  color: lighten($black, 20%)
+  cursor: pointer
+  &:hover
+    color: $black
+
+@media(max-width: 760px)
+  .main-nav
+    position: absolute
+    height: 100vh
+    left: 0
+    right: 0
+    padding-top: 5em
+    background-color: rgba(#069, 0.9)
+    display: flex
+    flex-direction: column
+    //justify-content: center
+    opacity: 0
+    pointer-events: none
+    transition: 300ms ease
+    &.menu-active
+      opacity: 1
+      pointer-events: all
+
+  .main-nav > a
+    color: white
+    margin: 0
+    margin-bottom: 1.2em
+    font-size: 1.6em
+    display: block
+    text-align: center
+    transform: scale(1.2)
+    opacity: 0
+    transition: 300ms
+    &.main-nav-a-active
+      transform: scale(1)
+      opacity: 1
+    &:hover
+      color: white
+      opacity: 0.6
+
+  .menu-toggle
+    display: block
+
+header
+  padding-top: 70px
+  position: relative
+  overflow: hidden
+  background: #069
+  width: 100vw
+  height: 350px
+  color: white
+  h1
+    font-size: 1.9em
+    font-weight: 400
+    margin-bottom: 1.2em
+  p
+    font-size: 1.2em
+    margin: 0.25em 0em
+
+.hero-bg
+  display: block
+  position: absolute
+  margin: 0 auto
+  left: calc(50% - 522.5px)
+  pointer-events: none
+  opacity: 0.6
+
+.header-container
+  padding: 0 1.2em
+  max-width: $width
+  height: 100%
+  margin: auto
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.hero-work
+  border-bottom: 2px solid white
+  position: relative
+  color: white
+  transition: 300ms
+  &::after
+    content: '→'
+    display: block
+    position: absolute
+    top: 0
+    right: -1.3em
+
+.stars-container
+  position: absolute
+  left: calc(50% - 522.5px)
+  //border: 1px solid white
+  width: 1045px
+  height: 150px
+
+.star
+  position: absolute
+  width: 20px
+  height: 20px
+  background-image: url('../images/star.svg')
+  opacity: 0.6
+
+.s-one
+  top: 20%
+  left: 40%
+  animation: glow 2s infinite
+
+.s-two
+  top: 10%
+  left: 4%
+  animation: glow 2s infinite 2s
+
+.s-three
+  top: 75%
+  left: 59%
+  animation: glow 2s infinite 3s
+
+.s-four
+  top: 6%
+  left: 78%
+  animation: glow 2s infinite 3s
+
+.s-five
+  top: 53%
+  left: 75%
+  animation: glow 2s infinite 4s
+
+.s-six
+  top: 60%
+  left: 23%
+  animation: glow 2s infinite 5s
+
+@keyframes glow
+  0% 100%
+    opacity: 0.6
+    transform: scale(1)
+  50%
+    opacity: 1
+    transform: scale(1.2)
+
+@media(max-width: 760px)
+  .hero-text > p:last-child
+    margin-top: 1em
+
+@media(max-width: 425px)
+  .hero-text
+    margin-top: 5em
+
+// WORK //
+.work
+  overflow: hidden
+  width: 100vw
+  background: $bg-gray
+  color: $black
+  padding: 5em 0em 7em
+
+.work-container
+  max-width: $width
+  padding: 0 1.2em
+  margin: auto
+
+.projects-container
+  position: relative
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.projects-container:first-child,
+.projects-container:nth-child(2)
+  margin-top: -2em
+
+.project-card
+  position: relative
+  width: 330px
+  height: 160px
+  background: white
+  border-radius: 0.3em
+  margin-top: 3.4em
+  cursor: pointer
+
+.project-image-container
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 100%
+  &:hover .project-image
+    transform: scale(1.2)
+
+.project-image
+  pointer-events: none
+  transition: 300ms ease
+
+.work-link
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+
+object
+  max-width: 200px
+
+.category
+  pointer-events: none
+  font-size: 0.9em
+  position: absolute
+  bottom: -1.9em
+  opacity: 0.7
+
+@media(max-width: 760px)
+  .project-card
+    width: 100%
+
+// ABOUT //
+.about
+  background: #ffffff
+  color: $black
+  width: 100vw
+  overflow: hidden
+  padding: 5em 0 7em
+  p
+    font-size: 1.1em
+    line-height: 26px
+  a
+    text-decoration: underline
+
+.about-container
+  max-width: $width
+  margin: 0 auto
+  padding: 0 1.2em
+
+.pic
+  width: 210px
+  height: 210px
+  border-radius: 50%
+  margin-top: 2em
+  background-image: url('../images/me.JPG')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+
+// READING //
+.reading
+  overflow: hidden
+  width: 100vw
+  background: $bg-gray
+  color: $black
+  padding: 5em 0em 7em
+
+.reading-container
+  max-width: $width
+  margin: 0 auto
+  padding: 0 1.2em
+
+.article:last-child
+  border-bottom: none
+
+.article
+  display: block
+  height: 100px
+  display: flex
+  align-items: center
+  border-bottom: 1px solid $gray
+  &:hover > .right-list > .title
+    color: #069
+
+  .title
+    transition: 300ms ease
+
+  .date
+    width: 240px
+    font-size: 0.9em
+
+  .right-list
+    width: 450px
+
+  .author
+    font-size: 0.9em
+    opacity: 0.7
+
+@media(max-width: 425px)
+  .article
+    flex-direction: column-reverse
+    justify-content: space-around
+
+    .date
+      width: 100%
+      padding-bottom: 1em
+
+    .right-list
+      padding-top: 1em
+      width: 100%
+
+// FOOTER //
+.contact
+  height: 70px
+  overflow: hidden
+
+.contact-container
+  max-width: $width
+  height: 100%
+  margin: 0 auto
+  padding: 0 1.2em
+  line-height: 70px
+  display: flex
+  justify-content: space-between
+
+.contact-right > a
+  margin-left: 30px
+  transition: 300ms
+  &:hover
+    color: #069
+
+.contact-right > a:first-child
+  margin-left: 0px
+
+@media(max-width: 760px)
+  .contact
+    height: 100%
+
+  .contact-container
+    flex-direction: column
+    line-height: 50px
+    text-align: center
+
+@media(max-width: 425px)
+  .contact-right > a
+    display: block
+    margin: 0px
+
+.legal
+  height: 70px
+  background: #069
+  color: white
+  text-align: center
+  overflow: hidden
+  p
+    line-height: 70px
+    margin: 0px
