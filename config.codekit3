@@ -94,26 +94,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/fonts\/circular\/CircularStd-Bold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/circular\/CircularStd-Bold.otf",
-		"oF": 0
-		},
-	"\/fonts\/circular\/CircularStd-Book.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/circular\/CircularStd-Book.otf",
-		"oF": 0
-		},
-	"\/images\/hero-bg.png": {
-		"ft": 32768,
-		"iS": 11476,
-		"oA": 0,
-		"oAP": "\/images\/hero-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/hero-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -126,7 +106,7 @@
 		},
 	"\/images\/me.JPG": {
 		"ft": 16384,
-		"iS": 334903,
+		"iS": 319624,
 		"oA": 0,
 		"oAP": "\/images\/me.jpg",
 		"oF": 0,
