@@ -7,7 +7,7 @@
 		"uuidString": "E57759E8-9ED6-4149-A7D1-A5A75E011261"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25568",
 "files": {
 	"\/CNAME": {
 		"ft": 8192,
@@ -55,7 +55,7 @@
 		"uL": 1
 		},
 	"\/css\/2-basics\/_body.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -100,6 +100,14 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/images\/hero-bg.jpg": {
+		"ft": 16384,
+		"iS": 262144,
+		"oA": 0,
+		"oAP": "\/images\/hero-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/hero-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -110,93 +118,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/me.JPG": {
+	"\/images\/me.jpg": {
 		"ft": 16384,
-		"iS": 319624,
+		"iS": 27730,
 		"oA": 0,
 		"oAP": "\/images\/me.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/images\/star.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/star.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-f.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-f.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-kc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-kc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-l.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-l.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-sb.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-sb.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-sg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-sg.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/work-tt.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/work-tt.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -897,6 +825,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1114,6 +1046,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1437,9 +1373,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1534,6 +1478,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

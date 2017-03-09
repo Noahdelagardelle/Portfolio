@@ -18,6 +18,16 @@ $(function(){
     $('.main-nav > a').removeClass('main-nav-a-active');
   });
 
+  $('.work-item-role-overlay').hover(
+    function() {
+      $(this).children('.role').addClass('role-active');
+      //$('.role').addClass('role-active');
+    }, function() {
+      $(this).children('.role').removeClass('role-active');
+      //$('.role').removeClass('role-active');
+    }
+  );
+
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function(event) {
       var $anchor = $(this);
