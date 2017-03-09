@@ -379,6 +379,16 @@ header {
   margin-right: 0;
 }
 
+.reading-section {
+  background-color: #F1F1F1;
+  width: 100vw;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #4A4A4A;
+}
+
 @media only screen and (max-width: 767px) {
   .container {
     max-width: 280px;
