@@ -116,6 +116,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/work-tt-1.jpg": {
+		"ft": 16384,
+		"iS": 134321,
+		"oA": 0,
+		"oAP": "\/images\/work-tt-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/work-tt.png": {
+		"ft": 32768,
+		"iS": 9445,
+		"oA": 0,
+		"oAP": "\/images\/work-tt.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,

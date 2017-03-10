@@ -30,7 +30,7 @@ $(function(){
 
   $('.work-tt').on('click', function(e){
     e.preventDefault();
-    $('.modal-one').addClass('show');
+    $('.modal-tt').addClass('show');
     $('body').addClass('open');
     $('.page-nav').toggleClass('mobile-nav-closed');
   })
