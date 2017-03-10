@@ -3,8 +3,8 @@ html
   box-sizing: border-box
 
 body
-  font-family: 'Raleway', sans-serif
   height: 100%
+  font-family: 'Raleway', sans-serif
 
 .container
   margin: auto
@@ -117,9 +117,6 @@ header
   bottom: -30px
   color: $gray
 
-.long
-  height: 200vh
-
 .about-section
   background-color: $white
   width: 100vw
@@ -146,6 +143,52 @@ header
   padding-top: 60px
   padding-bottom: 60px
   color: $black
+
+.article
+  display: block
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border-bottom: 1px solid $gray
+  &:hover > .right-list > .title
+    color: $blue
+
+.article:last-child
+  border-bottom: none
+
+.title
+  transition: 300ms ease
+
+.author
+  opacity: 0.7
+
+.sourse
+  display: none
+
+.contact-container
+  display: flex
+  justify-content: space-between
+  height: 70px
+  line-height: 70px
+  overflow: auto
+  a
+    font-size: 16px
+    transform: 300ms ease
+    &:hover
+      color: $blue
+
+.contact-right > a
+  margin-left: 1.5vw
+
+.legal
+  height: 70px
+  background-color: $blue
+  color: $white
+  text-align: center
+  p
+    line-height: 70px
+    margin: 0
+
 
 
 // MOBILE STYLES
@@ -233,6 +276,35 @@ header
     display: block
     margin: 18px auto 18px
 
+  .article
+    flex-direction: column-reverse
+    justify-content: space-around
+
+  .date
+    width: 100%
+    padding-top: 0.4em
+    padding-bottom: 1em
+
+  .right-list
+    padding-top: 1em
+    width: 100%
+
+  .source
+    display: none
+
+  .contact-container
+    display: flex
+    flex-direction: column
+    height: auto
+    line-height: 50px
+    overflow: auto
+    a
+      display: block
+      text-align: center
+
+  .contact-right > a
+    margin-left: 0
+
 // TABLET STYLES
 @media only screen and (min-width: 768px) and (max-width: 1023px)
   .container
@@ -312,6 +384,12 @@ header
     display: block
     margin: 18px auto 18px
 
+  .article
+    height: 100px
+
+  .right-list
+    width: 390px
+
 // DESKTOP STYLES
 @media only screen and (min-width: 1024px)
   .container
@@ -365,3 +443,20 @@ header
     border-radius: 50%
     display: block
     margin: 18px auto 18px
+
+  .article
+    height: 100px
+
+  .date
+    width: 222px
+
+  .sourse
+    display: block
+    width: 168px
+    margin-right: $desktop-gutter
+
+  .right-list
+    width: 390px
+
+  .title
+    margin-bottom: 5px
