@@ -28,6 +28,21 @@ $(function(){
     }
   );
 
+  $('.work-tt').on('click', function(e){
+    e.preventDefault();
+    $('.modal-one').addClass('show');
+    $('body').addClass('open');
+    $('.page-nav').toggleClass('mobile-nav-closed');
+  })
+
+  $('.close-modal').on('click', function(e){
+    e.preventDefault();
+    $('.modal').removeClass('show');
+    $('body').removeClass('open');
+    $('.page-nav').toggleClass('mobile-nav-closed');
+  })
+
+
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function(event) {
       var $anchor = $(this);

@@ -206,6 +206,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.open {
+  pointer-event: none;
+  overflow: hidden;
+}
+
 .container {
   margin: auto;
   box-sizing: border-box;
@@ -225,7 +230,7 @@ a {
   color: #4A4A4A;
 }
 
-nav {
+.page-nav {
   width: 100vw;
   height: 55px;
   position: fixed;
@@ -233,7 +238,10 @@ nav {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 100;
+}
+
+.page-nav.mobile-nav-closed {
+  z-index: 10;
 }
 
 .nav-container {
@@ -458,6 +466,56 @@ header {
   margin: 0;
 }
 
+.modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  overflow: scroll;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-nav {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 55px;
+}
+
+.modal-nav a {
+  font-size: 18px;
+}
+
+.modal-nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 55px;
+}
+
+.modal-nav-container a {
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 767px) {
   .container {
     max-width: 280px;
@@ -538,9 +596,10 @@ header {
   .work-item-container svg {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
+    z-index: 0;
   }
   .work-item-role-overlay {
-    line-height: 120px;
+    display: none;
   }
   .role {
     font-size: 18px;
