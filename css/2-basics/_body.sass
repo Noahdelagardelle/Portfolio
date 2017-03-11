@@ -6,14 +6,23 @@ body
   height: 100%
   font-family: 'Raleway', sans-serif
 
-.open
-  pointer-event: none
-  overflow: hidden
-
 .container
   margin: auto
   box-sizing: border-box
   //border: 1px solid red
+
+.opl
+  position: fixed
+  top: 150px
+  left: 0px
+  z-index: 1
+
+.opl a
+  width: 73px
+  height: 56px
+  text-indent: -9999px
+  display: block
+  background: url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png') no-repeat
 
 h1
   font-size: 36px
@@ -28,6 +37,9 @@ a
 
 img
   max-width: 100%
+
+.display-none
+  display: none
 
 .page-nav
   width: 100vw
@@ -193,70 +205,59 @@ header
   background-color: $blue
   color: $white
   text-align: center
-  p
+  span
+    color: $white
     line-height: 70px
     margin: 0
 
-.modal
-  position: fixed
-  right: 0
-  left: 0
-  top: 0
-  bottom: 0
-  background-color: #f9f9f9
-  //padding: 10px
-  width: 100%
-  box-sizing: border-box
-  opacity: 0
-  pointer-events: none
-  overflow: scroll
-  transition: 400ms
-  &.show
-    opacity: 1
-    pointer-events: auto
-
-.modal-nav
-  background-color: $white
-  position: fixed
-  top: 0
-  right: 0
-  left: 0
-  height: 55px
-  a
-    font-size: 18px
-
-.modal-nav-container
-  display: flex
-  justify-content: space-between
-  line-height: 55px
-  a
+.work-page
+  background-color: $bg-gray
+  img
+    margin-bottom: 20px
+  p
     color: $black
-    text-decoration: none
+    line-height: 1.5
+    margin-bottom: 40px
 
-.modal-nav .close-modal
-  font-size: 16px
-  font-weight: bold
-
-.hero
-  width: 100%
+.work-header
   height: 500px
+  width: 100%
   overflow: auto
 
-.modal-tt .hero
-  background-color: #006699
-
-.modal-hero-logo
+.work-hero-logo
   display: block
-  text-align: center
   margin: 150px auto 0
 
-.work-shadow
-  box-shadow: 0 0 40px 0 rgba(#8B8B8B,.5)
+.type-tool-header
+  background-color: $blue
 
-.first-work
+.work-item-section
+  margin-bottom: 100px
+
+.work-first-img
+  margin-top: -150px
+
+.radius-img
+  border-radius: 6px
+
+.shadow
+  box-shadow: 0 0 40px 0 rgba(#535353,.5)
+
+.website-btn
   display: block
-  margin: -150px auto 0
-
+  width: 150px
+  height: 45px
+  border: 1px solid $gray
+  background-color: $white
+  border-radius: $boarder-radius
+  margin: auto
+  text-align: center
+  line-height: 45px
+  margin-top: 30px
+  margin-bottom: 50px
+  transition: 200ms ease
+  &:hover
+    transform: scale(1.1)
 
 // MOBILE STYLES
 @media only screen and (max-width: 767px)
@@ -300,6 +301,9 @@ header
         transform: translateY(0px)
         opacity: 1
 
+  .opl
+    top: 130px
+
   header
     height: 300px
     margin-top: 0px
@@ -326,7 +330,6 @@ header
       z-index: 0
 
   .work-item-role-overlay
-    //line-height: 120px
     display: none
 
   .role
@@ -373,6 +376,19 @@ header
 
   .contact-right > a
     margin-left: 0
+
+  .work-header
+    height: 250px
+    width: 100%
+    overflow: auto
+
+  .work-hero-logo
+    display: block
+    margin: 100px auto 0
+    transform: scale(.8)
+
+  .work-first-img
+    margin-top: -50px
 
 
 

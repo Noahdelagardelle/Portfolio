@@ -7,7 +7,7 @@
 		"uuidString": "E57759E8-9ED6-4149-A7D1-A5A75E011261"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/CNAME": {
 		"ft": 8192,
@@ -96,7 +96,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hero-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/hero-bg.svg": {
 		"ft": 2097152,
@@ -114,7 +115,8 @@
 		"oA": 0,
 		"oAP": "\/images\/me.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/work-tt-1.jpg": {
 		"ft": 16384,
@@ -122,15 +124,45 @@
 		"oA": 0,
 		"oAP": "\/images\/work-tt-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/work-tt-2.jpg": {
+		"ft": 16384,
+		"iS": 130736,
+		"oA": 0,
+		"oAP": "\/images\/work-tt-2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/work-tt-3.jpg": {
+		"ft": 16384,
+		"iS": 197351,
+		"oA": 0,
+		"oAP": "\/images\/work-tt-3.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/work-tt-4.jpg": {
+		"ft": 16384,
+		"iS": 14894,
+		"oA": 0,
+		"oAP": "\/images\/work-tt-4.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/work-tt.png": {
 		"ft": 32768,
 		"iS": 9445,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/work-tt.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -173,6 +205,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/work\/type-tool.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work\/type-tool.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -855,6 +893,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1334,6 +1376,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -1934,7 +1980,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2027,7 +2074,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

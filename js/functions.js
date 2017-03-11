@@ -27,7 +27,7 @@ $(function(){
       //$('.role').removeClass('role-active');
     }
   );
-
+/*
   $('.work-tt').on('click', function(e){
     e.preventDefault();
     $('.modal-tt').addClass('show');
@@ -41,7 +41,7 @@ $(function(){
     $('body').removeClass('open');
     $('.page-nav').toggleClass('mobile-nav-closed');
   })
-
+*/
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function(event) {
