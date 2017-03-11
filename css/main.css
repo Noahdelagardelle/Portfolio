@@ -206,6 +206,16 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+::-moz-selection {
+  background: #006699;
+  color: #ffffff;
+}
+
+::selection {
+  background: #006699;
+  color: #ffffff;
+}
+
 .container {
   margin: auto;
   box-sizing: border-box;
@@ -446,6 +456,10 @@ header {
   display: none;
 }
 
+footer {
+  background-color: #ffffff;
+}
+
 .contact-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,7 +504,7 @@ header {
 }
 
 .work-page img {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .work-page p {
@@ -510,8 +524,39 @@ header {
   margin: 150px auto 0;
 }
 
+.find-your-dink-logo {
+  margin-top: 100px;
+}
+
+.kind-construction-logo {
+  margin-top: 100px;
+}
+
 .type-tool-header {
   background-color: #006699;
+}
+
+.find-your-drink-header {
+  background-color: #00A76B;
+}
+
+.laska-header {
+  background-color: #425671;
+  background-image: url("/images/work-l-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fold-header {
+  background-color: #9974F3;
+}
+
+.kind-construction-header {
+  background-color: #E1EEDB;
+}
+
+.simple-green-header {
+  background-color: #00A862;
 }
 
 .work-item-section {
@@ -694,6 +739,9 @@ header {
   .contact-right > a {
     margin-left: 0;
   }
+  .work-item-section p {
+    font-size: 14px;
+  }
   .work-header {
     height: 250px;
     width: 100%;
@@ -704,6 +752,26 @@ header {
     margin: 100px auto 0;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
+  }
+  .find-your-dink-logo {
+    margin: 30px auto 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .fold-logo {
+    margin: 60px auto 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .kind-construction-logo {
+    margin: 70px auto 0;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .simple-green-logo {
+    margin: 60px auto 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
   }
   .work-first-img {
     margin-top: -50px;
