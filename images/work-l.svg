@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="439px" height="90px" viewBox="0 0 439 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Desktop-HD-Copy-8" transform="translate(-501.000000, -165.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Laska" transform="translate(502.000000, 167.000000)">
+                <g id="A-last" transform="translate(362.585143, 0.000000)">
+                    <path d="M0.186963867,85.4333127 L37.2058095,0.171898014" id="Line"></path>
+                    <path d="M9.53515722,85.4333127 L41.6929423,10.4857788" id="Line-Copy-3"></path>
+                    <path d="M37.2058095,85.4333127 L74.2246552,0.171898014" id="Line-Copy-2" transform="translate(55.715232, 42.802605) scale(-1, 1) translate(-55.715232, -42.802605) "></path>
+                    <path d="M0.186963867,85.4333127 L9.53515722,85.4333127" id="Line"></path>
+                </g>
+                <g id="K" transform="translate(280.678857, 0.000000)">
+                    <path d="M10.0239664,0.504749223 L10.0239664,85.1128658" id="Line-Copy"></path>
+                    <path d="M0.747855468,0.343796027 L9.98123679,0.343796035" id="Line"></path>
+                    <path d="M0.675773013,0.504749223 L0.675773013,85.1128658" id="Line"></path>
+                    <path d="M0.934819335,85.0895167 L9.90908495,85.0895167" id="Line"></path>
+                    <path d="M10.2830127,36.6142769 L54.0325576,0.171898014" id="Line"></path>
+                    <path d="M23.3704834,26.3003961 L60.0154013,85.0895167" id="Line"></path>
+                </g>
+                <g id="S" transform="translate(187.785143, 0.000000)">
+                    <polyline id="v" points="0.838111357 14.7746987 28.9167227 0 58.8525095 13.4976393"></polyline>
+                    <polyline id="Path-5-Copy" points="0.652404323 71.6817657 30.5929454 85.9490068 59.2147255 70.397673"></polyline>
+                    <path d="M0.838111357,27.5036822 L30.0575835,42.2783809" id="Path-5-Copy-2"></path>
+                    <path d="M30.0556262,42.2869113 L59.2750983,57.0616101" id="Path-5-Copy-3"></path>
+                    <path d="M0.628583517,14.9551272 L0.628583517,27.3317842" id="Path-7"></path>
+                    <path d="M59.2963785,57.3333333 L59.2963785,70.3853116" id="Path-7-Copy"></path>
+                    <path d="M10.1753065,31.6842105 L10.1753065,10.0584795" id="Line"></path>
+                    <path d="M50.1295923,74.9356725 L50.1295923,52.8070175" id="Line-Copy-5"></path>
+                </g>
+                <g id="A-first" transform="translate(91.894857, 0.000000)">
+                    <path d="M0.186963867,85.4333127 L37.2058095,0.171898014" id="Line"></path>
+                    <path d="M9.53515722,85.4333127 L41.6929423,10.4857788" id="Line-Copy-3"></path>
+                    <path d="M37.2058095,85.4333127 L74.2246552,0.171898014" id="Line-Copy-2" transform="translate(55.715232, 42.802605) scale(-1, 1) translate(-55.715232, -42.802605) "></path>
+                    <path d="M0.186963867,85.4333127 L9.53515722,85.4333127" id="Line"></path>
+                </g>
+                <g id="L">
+                    <path d="M10.0239664,0.848545251 L10.0239664,85.4566618" id="Line-Copy"></path>
+                    <path d="M0.63042547,85.4661472 L68.2804602,85.4661472" id="Line"></path>
+                    <path d="M0.675773013,0.482859589 L9.90915434,0.482859597" id="Line"></path>
+                    <path d="M0.675773013,0.804765981 L0.675773013,85.4128825" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

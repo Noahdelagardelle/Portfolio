@@ -173,15 +173,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-f.png": {
-		"ft": 32768,
-		"iS": 5701,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-f.png",
+	"\/images\/work-f.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-f.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/work-kc-1.jpg": {
 		"ft": 16384,
@@ -219,15 +219,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-kc.png": {
-		"ft": 32768,
-		"iS": 36492,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-kc.png",
+	"\/images\/work-kc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-kc.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/work-l-1.png": {
 		"ft": 32768,
@@ -248,15 +248,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-l.png": {
-		"ft": 32768,
-		"iS": 9814,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-l.png",
+	"\/images\/work-l.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-l.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/work-sb-1.png": {
 		"ft": 32768,
@@ -268,15 +268,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-sb.png": {
-		"ft": 32768,
-		"iS": 9606,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-sb.png",
+	"\/images\/work-sb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-sb.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/work-sg-1.jpg": {
 		"ft": 16384,
@@ -324,15 +324,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-sg.png": {
-		"ft": 32768,
-		"iS": 9665,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-sg.png",
+	"\/images\/work-sg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-sg.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/work-tt-1.jpg": {
 		"ft": 16384,
@@ -370,15 +370,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/work-tt.png": {
-		"ft": 32768,
-		"iS": 9445,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/work-tt.png",
+	"\/images\/work-tt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/work-tt.svg",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/index.html": {
 		"ft": 8192,

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="130px" viewBox="0 0 228 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-7" transform="translate(-605.000000, -176.000000)">
+            <g id="Fold" transform="translate(605.000000, 171.000000)">
+                <polygon id="Fill-1" fill="#84E0FF" points="19.75545 5.52049628 39.44595 48.5920204 85.30445 48.5920204 65.61345 5.52049628"></polygon>
+                <text id="FOLD" font-family="Montserrat-Black, Montserrat" font-size="64.4895" font-weight="700" letter-spacing="0.0375000015" fill="#FFFFFF">
+                    <tspan x="50.2715" y="65.0689485">FOLD</tspan>
+                </text>
+                <polygon id="Fill-4" fill="#84E0FF" points="0 48.5920204 19.6905 91.6640465 65.5485 91.6640465 45.8575 48.5920204"></polygon>
+                <polygon id="Fill-5" fill="#66D7FB" points="19.69065 5.52049628 0.00015 48.5920204 45.85765 48.5920204 65.54815 5.52049628"></polygon>
+                <polygon id="Fill-6" fill="#66D7FB" points="19.69065 91.6639963 0.00015 134.73552 45.85765 134.73552 65.54815 91.6639963"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
