@@ -221,6 +221,10 @@ body {
   box-sizing: border-box;
 }
 
+.will-animate {
+  opacity: 0;
+}
+
 .opl {
   position: fixed;
   top: 150px;

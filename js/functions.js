@@ -1,5 +1,31 @@
 $(function(){
 
+  animate();
+
+  workAnimate();
+
+/*
+  $(window).scroll(function() {
+    if ($(this).scrollTop() < 500) {
+      $('.hero-text-container h1').addClass('animated fadeInUp');
+      setTimeout(function(){
+        $('.hero-text-container .hero-p:nth-child(2)').addClass('animated fadeInUp');
+      }, 200);
+      setTimeout(function(){
+        $('.hero-text-container .hero-p:nth-child(3)').addClass('animated fadeInUp');
+      }, 400);
+    } else {
+      $('.hero-text-container h1').removeClass('animated fadeInUp');
+      setTimeout(function(){
+        $('.hero-text-container .hero-p:nth-child(2)').removeClass('animated fadeInUp');
+      }, 200);
+      setTimeout(function(){
+        $('.hero-text-container .hero-p:nth-child(3)').removeClass('animated fadeInUp');
+      }, 400);
+    }
+  });
+*/
+
   $('.menu-toggle').click(function(){
     $('.main-nav').toggleClass('menu-active');
     setTimeout(function(){
@@ -18,6 +44,23 @@ $(function(){
     $('.main-nav > a').removeClass('main-nav-a-active');
   });
 
+  function animate() {
+    $('.hero-text-container h1').addClass('animated fadeInUp');
+    setTimeout(function(){
+      $('.hero-text-container .hero-p:nth-child(2)').addClass('animated fadeInUp');
+    }, 200);
+    setTimeout(function(){
+      $('.hero-text-container .hero-p:nth-child(3)').addClass('animated fadeInUp');
+    }, 400);
+  }
+
+  function workAnimate() {
+    $('.work-hero-logo').addClass('animated fadeInUp');
+    setTimeout(function(){
+      $('.work-first-img').addClass('animated fadeInUp');
+    }, 100);
+  }
+
   $('.work-item-role-overlay').hover(
     function() {
       $(this).children('.role').addClass('role-active');
@@ -27,21 +70,6 @@ $(function(){
       //$('.role').removeClass('role-active');
     }
   );
-/*
-  $('.work-tt').on('click', function(e){
-    e.preventDefault();
-    $('.modal-tt').addClass('show');
-    $('body').addClass('open');
-    $('.page-nav').toggleClass('mobile-nav-closed');
-  })
-
-  $('.close-modal').on('click', function(e){
-    e.preventDefault();
-    $('.modal').removeClass('show');
-    $('body').removeClass('open');
-    $('.page-nav').toggleClass('mobile-nav-closed');
-  })
-*/
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function(event) {
