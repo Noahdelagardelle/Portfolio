@@ -2,8 +2,17 @@ $(function(){
 
   animate();
 
-  workAnimate();
-
+  if ($(window).width() > 768) {
+    workAnimate();
+  }
+/*
+  $(window).load(function() {
+    if ($(window).width() > 768) {
+      workAnimate();
+      alert('window loaded');
+    }
+  });
+*/
 /*
   $(window).scroll(function() {
     if ($(this).scrollTop() < 500) {
@@ -55,9 +64,9 @@ $(function(){
   }
 
   function workAnimate() {
-    $('.work-hero-logo').addClass('animated fadeInUp');
+    $('.work-hero-logo').addClass('will-animate animated fadeInUp');
     setTimeout(function(){
-      $('.work-first-img').addClass('animated fadeInUp');
+      $('.work-first-img').addClass('will-animate animated fadeInUp');
     }, 100);
   }
 
