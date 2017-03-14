@@ -90,6 +90,12 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/images\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon.ico",
+		"oF": 0
+		},
 	"\/images\/hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 262144,
