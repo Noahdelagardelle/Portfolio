@@ -16,26 +16,29 @@ $(function(){
 
   $(window).scroll(function() {
     if ($(this).scrollTop() <= 500) {
-      setTimeout(function(){
-        $('.hero-text-container h1').addClass('animated fadeInUp');
-      }, 200);
+      $('.hero-text-container h1').addClass('animated fadeInUp');
       setTimeout(function(){
         $('.hero-text-container .hero-p:nth-child(2)').addClass('animated fadeInUp');
-      }, 300);
+      }, 400);
       setTimeout(function(){
         $('.hero-text-container .hero-p:nth-child(3)').addClass('animated fadeInUp');
-      }, 400);
+      }, 600);
     } else {
       $('.hero-text-container h1').removeClass('animated fadeInUp');
-      setTimeout(function(){
-        $('.hero-text-container .hero-p:nth-child(2)').removeClass('animated fadeInUp');
-      }, 200);
-      setTimeout(function(){
-        $('.hero-text-container .hero-p:nth-child(3)').removeClass('animated fadeInUp');
-      }, 400);
+      $('.hero-p:nth-child(2)').removeClass('animated fadeInUp');
+      $('.hero-p:nth-child(3)').removeClass('animated fadeInUp');
     }
   });
 
+  function animate() {
+    $('.hero-text-container h1').addClass('animated fadeInUp');
+    setTimeout(function(){
+      $('.hero-p:nth-child(2)').addClass('animated fadeInUp');
+    }, 400);
+    setTimeout(function(){
+      $('.hero-p:nth-child(3)').addClass('animated fadeInUp');
+    }, 600);
+  }
 
   $('.menu-toggle').click(function(){
     $('.main-nav').toggleClass('menu-active');
@@ -54,16 +57,6 @@ $(function(){
     $('.main-nav').removeClass('menu-active');
     $('.main-nav > a').removeClass('main-nav-a-active');
   });
-
-  function animate() {
-    $('.hero-text-container h1').addClass('animated fadeInUp');
-    setTimeout(function(){
-      $('.hero-text-container .hero-p:nth-child(2)').addClass('animated fadeInUp');
-    }, 200);
-    setTimeout(function(){
-      $('.hero-text-container .hero-p:nth-child(3)').addClass('animated fadeInUp');
-    }, 400);
-  }
 
   function workAnimate() {
     $('.work-hero-logo').addClass('will-animate animated fadeInUp');

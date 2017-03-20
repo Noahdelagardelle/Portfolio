@@ -86,7 +86,8 @@ header
 
 .hero-work-link
   color: $white
-  text-decoration: underline
+  border-bottom: 2px solid $white
+  padding-bottom: 2px
 
 .hero-p
   font-size: 24px
@@ -184,6 +185,7 @@ header
 
 .title
   transition: 300ms ease
+  font-weight: bold
 
 .author
   opacity: 0.7
@@ -410,6 +412,11 @@ footer
       display: block
       text-align: center
 
+  .legal
+    height: 50px
+    span
+      line-height: 50px
+
   .contact-right > a
     margin-left: 0
 
@@ -527,6 +534,9 @@ footer
 
   .article
     height: 100px
+    box-sizing: border-box
+    padding-top: 3%
+    align-items: baseline
 
   .right-list
     width: 390px
@@ -552,7 +562,7 @@ footer
       transition: 300ms ease
       margin-left: 1.5vw
       &:hover
-        color: $black
+        color: $blue
 
   header
     height: 500px
@@ -586,7 +596,10 @@ footer
     margin: 18px auto 18px
 
   .article
-    height: 100px
+    height: 110px
+    box-sizing: border-box
+    padding-top: 3%
+    align-items: baseline
 
   .date
     width: 222px

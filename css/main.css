@@ -313,7 +313,8 @@ header {
 
 .hero-work-link {
   color: #ffffff;
-  text-decoration: underline;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 2px;
 }
 
 .hero-p {
@@ -450,6 +451,7 @@ header {
 .title {
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
+  font-weight: bold;
 }
 
 .author {
@@ -606,7 +608,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   .container {
-    max-width: 280px;
+    max-width: 87.5%;
   }
   .menu-toggle {
     display: block;
@@ -744,6 +746,12 @@ footer {
     display: block;
     text-align: center;
   }
+  .legal {
+    height: 50px;
+  }
+  .legal span {
+    line-height: 50px;
+  }
   .contact-right > a {
     margin-left: 0;
   }
@@ -880,6 +888,11 @@ footer {
   }
   .article {
     height: 100px;
+    box-sizing: border-box;
+    padding-top: 3%;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
   .right-list {
     width: 390px;
@@ -908,7 +921,7 @@ footer {
     margin-left: 1.5vw;
   }
   .main-nav a:hover {
-    color: #4A4A4A;
+    color: #006699;
   }
   header {
     height: 500px;
@@ -942,7 +955,12 @@ footer {
     margin: 18px auto 18px;
   }
   .article {
-    height: 100px;
+    height: 110px;
+    box-sizing: border-box;
+    padding-top: 3%;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
   .date {
     width: 222px;
