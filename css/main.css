@@ -935,6 +935,10 @@ footer {
     margin-right: 30px;
     margin-bottom: 50px;
   }
+  .work-item-section p {
+    margin-right: 90px;
+    margin-left: 90px;
+  }
   .work-item-role-overlay {
     line-height: 160px;
   }
