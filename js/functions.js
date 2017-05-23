@@ -5,14 +5,6 @@ $(function(){
   if ($(window).width() > 768) {
     workAnimate();
   }
-/*
-  $(window).load(function() {
-    if ($(window).width() > 768) {
-      workAnimate();
-      alert('window loaded');
-    }
-  });
-*/
 
   $(window).scroll(function() {
     if ($(this).scrollTop() <= 500) {
